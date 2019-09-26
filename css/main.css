@@ -3,7 +3,12 @@ html {
 }
 
 .masthead {
-
+  background-image: url("../images/leaf-bg.svg");
+  background-color: #588477;
+  border-bottom: 3px solid #2d5a4d;
+  background-size: 64px auto;
+  background-repeat: repeat;
+  background-position: left top, left bottom, left top;
 }
 
 .logo {
@@ -15,19 +20,45 @@ html {
 }
 
 .nav a {
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: left top, left bottom, left top;
+  display: inline-block;
+  padding: .4em;
+  border: 3px solid;
+  border-radius: 8px;
+  font-size: 1.125rem;
   text-decoration: none;
+  color: #fff;
+  color: rgba(16, 52, 41, .8);
+  background-color: #2d5a4d;
 }
 
 .nav a:hover {
-
+  background-image: url("../images/leaf-icon.svg");
+  background-color: #fff;
+  color: #145b1d;
+  background-position: .75em;
+  background-size: 36px auto;
+  background-repeat: no-repeat;
 }
 
 .banner {
-
+  background-image: url(../assets/strange-leaf.jpg);
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .5)), url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  border-bottom: 3px solid #467366;
 }
 
 .banner-content {
-
+  background-image: url("../assets/two-leaves.svg");
+  padding-top: 300px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-position: 10px 180px;
 }
 
 @media only screen and (min-width: 60em) {
