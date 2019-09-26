@@ -20,18 +20,12 @@ html {
 }
 
 .nav a {
-  background-size: auto;
-  background-repeat: repeat;
-  background-position: left top, left bottom, left top;
-  display: inline-block;
-  padding: .4em;
-  border: 3px solid;
-  border-radius: 8px;
-  font-size: 1.125rem;
   text-decoration: none;
-  color: #fff;
   color: rgba(16, 52, 41, .8);
-  background-color: #2d5a4d;
+  color: #fff;
+  background-color: #467366;
+  border: 3px solid #2d5a4d;
+  border-radius: 8px;
 }
 
 .nav a:hover {
@@ -39,12 +33,12 @@ html {
   background-color: #fff;
   color: #145b1d;
   background-position: .75em;
-  background-size: 36px auto;
+  background-size: 48px auto;
   background-repeat: no-repeat;
 }
 
 .banner {
-  background-image: url(../assets/strange-leaf.jpg);
+
   background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .5)), url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -54,11 +48,11 @@ html {
 
 .banner-content {
   background-image: url("../assets/two-leaves.svg");
-  padding-top: 300px;
-  color: #fff;
+  padding-top: 304px;
   background-repeat: no-repeat;
   background-size: 100px auto;
   background-position: 10px 180px;
+  color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
